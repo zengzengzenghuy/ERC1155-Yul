@@ -3,3 +3,9 @@ src = 'src'
 out = 'out'
 libs = ['lib']
 ffi = true
+evm_version = 'shanghai'
+remappings = [
+    "ds-test/=lib/solmate/lib/ds-test/src/",
+    "forge-std/=lib/forge-std/src/",
+    "solmate/=lib/solmate/src/"
+]
